@@ -5,11 +5,11 @@
 </p>
 
 <h1 align="center">
-  Doks
+  Githaxs
 </h1>
 
 <h3 align="center">
-  Modern documentation theme
+  CI as a Service
 </h3>
 
 <p align="center">

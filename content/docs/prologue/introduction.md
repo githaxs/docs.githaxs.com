@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
-description: "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
-lead: "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
+description: "Githaxs is a CI as a Service platform."
+lead: "Githaxs is a CI as a Service platform. Stup and configure CI tasks on hunrdeds of repos within minutes."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
@@ -15,15 +15,19 @@ toc: true
 
 ## Get started
 
-There are two main ways to get started with Doks:
+Githaxs provides two different GitHub Applications: Githaxs Meta and Githaxs.
 
-### Tutorial
+The [Githaxs Meta](https://github.com/apps/githaxs-meta) application **does not** have access to your application source code. It performs checks on and tasks based on Meta data (i.e. checking Pull Request Title, size of PR, etc).
+
+The Githaxs applicatios **does** have access to your application source code. It performs tasks such as linting, static scanning, and running unit tests.
+
+### Install Application
 
 {{< alert icon="👉" text="The Tutorial is intended for novice to intermediate users." >}}
 
 Step-by-step instructions on how to start a new Doks project. [Tutorial →](https://getdoks.org/tutorial/introduction/)
 
-### Quick Start
+### Configure Tasks
 
 {{< alert icon="👉" text="The Quick Start is intended for intermediate to advanced users." >}}
 
