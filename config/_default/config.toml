@@ -1,4 +1,5 @@
 baseurl = "/"
+publishDir = "docs"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
