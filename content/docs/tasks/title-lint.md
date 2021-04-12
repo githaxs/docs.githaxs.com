@@ -1,7 +1,7 @@
 ---
 title: "Title Lint"
-description: "Answers to frequently asked questions."
-lead: "Answers to frequently asked questions."
+description: "Title Lint | Meta Application"
+lead: "Ensure Pull Request Titles follow a convention."
 date: 2020-10-06T08:49:31+00:00
 lastmod: 2020-10-06T08:49:31+00:00
 draft: false
