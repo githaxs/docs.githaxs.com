@@ -19,44 +19,68 @@ Githaxs provides two different GitHub Applications: Githaxs Meta and Githaxs.
 
 The [Githaxs Meta](https://github.com/apps/githaxs-meta) application **does not** have access to your application source code. It performs checks on and tasks based on Meta data (i.e. checking Pull Request Title, size of PR, etc).
 
-The Githaxs applicatios **does** have access to your application source code. It performs tasks such as linting, static scanning, and running unit tests.
+The [Githaxs](https://github.com/apps/githaxs) application **does** have access to your application source code. It performs tasks such as linting, static scanning, and running unit tests.
 
 ### Install Application
 
-{{< alert icon="👉" text="The Tutorial is intended for novice to intermediate users." >}}
+Installation of either Githaxs application is done with a few clicks of a button.
 
-Step-by-step instructions on how to start a new Doks project. [Tutorial →](https://getdoks.org/tutorial/introduction/)
+1. Navigate to the GitHub application page for [Githaxs](https://github.com/apps/githaxs) or [Githaxs Meta](https://github.com/apps/githaxs-meta).
+2. Click on `Install` or `Configure`.
+3. Select the GitHub Organization you want to install the application on.
+4. Select either `All repositories` or `Only select repositories`; if the latter select which repositories you wish to install the application on.
+5. Click `Install`
+
 
 ### Configure Tasks
 
-{{< alert icon="👉" text="The Quick Start is intended for intermediate to advanced users." >}}
+Both Githaxs applications read configurations from a repo named `githaxs_settings` with a file named `ghx.yml`.
 
-One page summary of how to start a new Doks project. [Quick Start →]({{< relref "quick-start" >}})
+{{< alert icon="👉" text="Configurations are read from githaxs_setting/ghx.yml." >}}
 
-## Go further
+A task can be configured to run on a repo in multiple different ways. Here is an example configuration that demonstrates each way for the `title-lint` task:
 
-Recipes, Reference Guides, Extensions, and Showcase.
+```yaml
+title-lint:
+  installation:
+    # Run title lint on every repo the GitHub application is installed on
+    org: true
+    # Run title lint on the following repos only
+    repos:
+      - foo
+      - bar
+    # Run title lint on repos with languages as determined by GitHub
+    repo_languages:
+      - python
+      - javascript
+    # Run title lint on repos with these topics
+    repo_topics:
+      - api
+      - web
+```
 
-### Recipes
+Note that if any of the installation conditions are true for a repository the task will be run for the repo.
 
-Get instructions on how to accomplish common tasks with Doks. [Recipes →](https://getdoks.org/docs/recipes/project-configuration/)
+In addition to configuring which repos a task will run on you can provide configuration options for tasks that are configurable.
 
-### Reference Guides
+As an example, the Title Lint task will check Pull Request titles to ensure they match a defined pattern which is provided by the `regex` parameter. Here are the different ways to configure a task:
 
-Learn how to customize Doks to fully make it your own. [Reference Guides →](https://getdoks.org/docs/reference-guides/security/)
-
-### Extensions
-
-Get instructions on how to add even more to Doks. [Extensions →](https://getdoks.org/docs/extensions/breadcrumb-navigation/)
-
-### Showcase
-
-See what others have build with Doks. [Showcase →](https://getdoks.org/showcase/electric-blocks/)
-
-## Contributing
-
-Find out how to contribute to Doks. [Contributing →](https://getdoks.org/docs/contributing/how-to-contribute/)
-
-## Help
-
-Get help on Doks. [Help →]({{< relref "how-to-update" >}})
+```yaml
+title-lint:
+  settings:
+    org:
+      # Enforced standard for the entire orginization that cannot be overridden
+      final:
+        regex: "[A-Z]+-[0-9]+"
+      # Default value for organization.
+      # Can be overridden by repo specific settings.
+      default:
+        regex: "[A-Z]+-[0-9]+"
+  # Repo specific settings
+  repos:
+    - names:
+        - foo
+        - bar
+      settings:
+        regex: "[A-Z]+-[0-9]+"
+```
