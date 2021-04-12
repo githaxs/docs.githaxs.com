@@ -25,7 +25,7 @@ This application is useful if you follow standards such as conventional commit o
 |---|---|---|
 |regex| The regular expression to test Pull Request titles agains| yes
 
-## Example Configuration
+### Example Configuration
 
 ```yaml
 # githaxs_settings/ghx.yml

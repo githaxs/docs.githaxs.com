@@ -16,7 +16,7 @@ ogLocale = "en_US"
 
 ## JSON-LD
 schemaType = "Organization"
-schemaLogo = "logo-doks.png"
+schemaLogo = "logo.png"
 schemaTwitter = "https://twitter.com/"
 schemaLinkedIn = "https://www.linkedin.com/in/gabelevasseur/"
 schemaGitHub = "https://github.com/githaxs"
