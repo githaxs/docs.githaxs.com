@@ -32,11 +32,12 @@ This application is useful if you follow standards such as conventional commit o
 
 title-lint:
   org: true
-  org_settings:
-    # Cannot be overriden by repo specific settings
-    final:
-      regex: "[A-Z]+-[0-9]+"
-    # Default value if repo specific settings do not exist
-    default:
-      regex: "[A-Z]+-[0-9]+"
+  settings:
+    org:
+      # Cannot be overriden by repo specific settings
+      final:
+        regex: "[A-Z]+-[0-9]+"
+      # Default value if repo specific settings do not exist
+      default:
+        regex: "[A-Z]+-[0-9]+"
 ```
