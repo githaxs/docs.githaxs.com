@@ -13,6 +13,14 @@ weight: 630
 toc: true
 ---
 
-## Coming Soon
+## How long does it take for my subscription to become active?
+Our onboarding process is still a work in progress and done manually. We ensure all users are onboarded within 24 hours of signing up.
 
-Have a question? Click `Edit this page on GitHub` and create a Pull Request.
+## Is Githaxs free for Open Source projects?
+Open Source projects have access to our Free subscription. We currently do not provide all features to Open Source projects.
+
+## How do I cancel my subscription?
+Please send an email to `subscriptions@githaxs.com`.
+
+## Have a question?
+Please send an email to `hello@githaxs.com`.
