@@ -17,7 +17,7 @@ toc: true
 
 ### Secure Webhooks
 
-To limit the requests our platform receives we have followed the guide GitHub offers for [Securingy your webhooks](https://docs.github.com/en/developers/webhooks-and-events/securing-your-webhooks). We validate the signature of every request and reject the requests which have not been signed with a secret token.
+To limit the requests our platform receives we have followed the guide GitHub offers for [Securing your webhooks](https://docs.github.com/en/developers/webhooks-and-events/securing-your-webhooks). We validate the signature of every request and reject the requests which have not been signed with a secret token.
 
 ### Data Protection
 
