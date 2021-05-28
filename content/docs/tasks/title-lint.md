@@ -23,7 +23,8 @@ This application is useful if you follow standards such as conventional commit o
 
 |parameter|description|required|
 |---|---|---|
-|regex| The regular expression to test Pull Request titles agains| yes
+|regex| The regular expression to test Pull Request titles agains| yes |
+|exclude_users| A list of users to exclude from checking Pull Request Titles (i.e. dependabot) | no |
 
 ### Example Configuration
 
@@ -37,6 +38,8 @@ title-lint:
       # Cannot be overriden by repo specific settings
       final:
         regex: "[A-Z]+-[0-9]+"
+        exclude_users:
+          - dependabot
       # Default value if repo specific settings do not exist
       default:
         regex: "[A-Z]+-[0-9]+"
