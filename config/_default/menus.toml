@@ -1,18 +1,25 @@
 [[docs]]
-  name = "Prologue"
-  weight = 10
-  identifier = "prologue"
-  url = "/docs/prologue/"
+  name = "Getting Started"
+  weight = 50
+  identifier = "getting-started"
+  url = "/docs/getting-started/"
 
 [[docs]]
-  name = "Tasks"
+  name = "Tasks | Code Quality"
   weight = 70
-  identifier = "tasks"
-  url = "/docs/tasks/"
+  identifier = "cq"
+  url = "/docs/tasks/cq/"
+
+[[docs]]
+  name = "Tasks | Workflow"
+  weight = 70
+  identifier = "workflow"
+  url = "/docs/tasks/workflow"
+
 
 [[main]]
   name = "Docs"
-  url = "/docs/prologue/introduction/"
+  url = "/docs/getting-started/introduction/"
   weight = 10
 
 [[social]]

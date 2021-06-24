@@ -1,6 +1,6 @@
 ---
 title: "Code Freeze"
-description: "Code Freeze | Meta Application"
+description: "Githaxs | Code Freeze"
 lead: "Enforce code freezes programatically"
 date: 2020-10-06T08:49:31+00:00
 lastmod: 2020-10-06T08:49:31+00:00
@@ -8,12 +8,12 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "tasks"
+    parent: "workflow"
 weight: 630
 toc: true
 ---
 
-## Code Freeze
+---
 
 Allows you to prevent deployents during sensitive times/days of the year.
 

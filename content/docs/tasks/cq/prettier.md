@@ -8,12 +8,12 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "tasks"
+    parent: "cq"
 weight: 630
 toc: true
 ---
 
-## Prettier
+---
 
 [Prettier](https://prettier.io/) is an opinionated code formatter
 created to reduce time spent deliberating over which style conventions

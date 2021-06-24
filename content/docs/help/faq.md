@@ -14,7 +14,7 @@ toc: true
 ---
 
 ## How long does it take for my subscription to become active?
-Our onboarding process is still a work in progress and done manually. We ensure all users are onboarded within 24 hours of signing up.
+During our Beta phase we are onboarding users manually. We ensure all users are onboarded within 24 hours of signing up.
 
 ## Is Githaxs free for Open Source projects?
 Open Source projects have access to our Free subscription. We currently do not provide all features to Open Source projects.

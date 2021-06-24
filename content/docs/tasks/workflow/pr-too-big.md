@@ -1,6 +1,6 @@
 ---
 title: "PR Too Big"
-description: "PR Too Big | Meta Application"
+description: "Githaxs | PR Too Big"
 lead: "Ensure Pull Requests are small and easily reviewable"
 date: 2020-10-06T08:49:31+00:00
 lastmod: 2020-10-06T08:49:31+00:00
@@ -8,12 +8,12 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "tasks"
+    parent: "workflow"
 weight: 630
 toc: true
 ---
 
-## PR Too Big
+---
 
 [Atlassian](https://www.atlassian.com/blog/git/written-unwritten-guide-pull-requests), [Small Business Programming](https://smallbusinessprogramming.com/optimal-pull-request-size/), and [Google](https://cloud.google.com/architecture/devops/devops-process-working-in-small-batches) have made the case for using small pull requests to improve team efficiency and reduce errors.
 
