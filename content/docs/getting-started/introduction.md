@@ -15,15 +15,7 @@ toc: true
 
 ## Get started
 
-Githaxs provides two different GitHub Applications: Githaxs Workflow and Githaxs.
-
-The [Githaxs Workflow](https://github.com/apps/githaxs-workflow) application **does not** have access to your application source code. It performs tasks based on Meta data (i.e. checking Pull Request Title, size of PR, etc) and helps you enforce standardized workflows across your entire engineering organization.
-
-The [Githaxs](https://github.com/apps/githaxs) application **does** have access to your application source code. It performs tasks such as linting and static analysis. You can centrally configure settings for all of your Repos.
-
-### Install Application
-
-Installing either Githaxs application is done with a few clicks of a button.
+The first step is to install the [Githaxs](https://github.com/apps/githaxs) application.
 
 1. Navigate to the GitHub application page for [Githaxs](https://github.com/apps/githaxs) or [Githaxs Workflow](https://github.com/apps/githaxs-workflow).
 2. Click on `Install` or `Configure`.
