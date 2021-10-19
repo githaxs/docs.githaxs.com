@@ -15,13 +15,13 @@ toc: true
 
 ## How do I Migrate?
 
-Migrating to Githaxs is **a lot** easier than migrating between other CI/CD providers. When migrating to Githaxs there is no need to translate between Jenkins and CircleCI syntax. 
+Migrating to Githaxs is **a lot** easier than migrating between other CI/CD providers. When migrating to Githaxs there is no need to translate between Jenkins and CircleCI syntax or to contact us for a migration plan. 
 
 
-Here is the three step process:
+Migration is a three-step process:
 
 1. Install Githaxs Application.
 
-2. Create githaxs_settings/ghx.yml configuration file.
+2. Delete CI tasks from your current CI tooling.
 
-3. Delete CI tasks from your current CI tooling (optional)
+3. Configure Githaxs tasks.
