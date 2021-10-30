@@ -20,11 +20,11 @@ where you can update task configurations for your GitHub Organization.
 
 #### Task Installation
 
-A task can be configured to run on a repo in multiple different ways providing you maximum flexibility and convenience.
+A task can be configured to run in multiple different ways providing you maximum flexibility and convenience.
 
-The first option is to install a task on your `Entire Org`. With this option the task will run on *every* repository in the selected GitHub Organization.
+The first option is to install a task on your `Entire Org`. With this option the task will run on *every* repository the Githaxs application is installed on.
 
-If you would like to run a task on only certain repos you can uncheck `Entire Org` and add a list of Repo Names or Repo Topics to run the task on.
+If you would like to run a task on only certain repos you can uncheck `Entire Org` and add a list of Repo Names or Repo Topics.
 
 
 #### Task Settings
