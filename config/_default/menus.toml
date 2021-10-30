@@ -4,19 +4,6 @@
   identifier = "getting-started"
   url = "/docs/getting-started/"
 
-[[docs]]
-  name = "Tasks | Code Quality"
-  weight = 70
-  identifier = "cq"
-  url = "/docs/tasks/cq/"
-
-[[docs]]
-  name = "Tasks | Workflow"
-  weight = 70
-  identifier = "workflow"
-  url = "/docs/tasks/workflow"
-
-
 [[main]]
   name = "Docs"
   url = "/docs/getting-started/introduction/"
