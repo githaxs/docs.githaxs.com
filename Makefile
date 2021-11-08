@@ -1,7 +1,8 @@
 build:
 	@hugo --gc --minify
-	@mv public docs
+	@cp -r public/* docs
 	@git checkout docs/CNAME
+	@rm -rf public
 
 start:
 	@hugo server
