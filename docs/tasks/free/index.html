@@ -1,8 +1,8 @@
 <!doctype html><html lang=en-us>
 <head><meta charset=utf-8>
-<title>Account & Billing</title>
+<title>Free Tasks</title>
 <meta name=author content="Githaxs">
-<meta name=description content="Documentation for Account & Billing">
+<meta name=description content="Documentation for Githaxs">
 <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=5">
 <meta http-equiv=x-dns-prefetch-control content="on">
 <link rel=preconnect href=//ajax.googleapis.com>
@@ -64,7 +64,7 @@
 <a href=https://docs.githaxs.com/basic-startup/tutorials/>Tutorials</a>
 </ul>
 </li>
-<li data-nav-id=https://docs.githaxs.com/account-bill/ title="Account & Billing" class="sidelist parent active">
+<li data-nav-id=https://docs.githaxs.com/account-bill/ title="Account & Billing" class=sidelist>
 <a href=https://docs.githaxs.com/account-bill/>Account & Billing</a>
 <ul>
 <li data-nav-id=https://docs.githaxs.com/account-bill/subscribe/ title=Subscribe class=sidelist>
@@ -75,10 +75,10 @@
 <a href=https://docs.githaxs.com/account-bill/cancel/>Cancel</a>
 </ul>
 </li>
-<li data-nav-id=https://docs.githaxs.com/tasks/ title=Tasks class=sidelist>
+<li data-nav-id=https://docs.githaxs.com/tasks/ title=Tasks class="sidelist parent">
 <a href=https://docs.githaxs.com/tasks/>Tasks</a>
 <ul>
-<li data-nav-id=https://docs.githaxs.com/tasks/free/ title="Free Tasks" class=sidelist>
+<li data-nav-id=https://docs.githaxs.com/tasks/free/ title="Free Tasks" class="sidelist parent active">
 <a href=https://docs.githaxs.com/tasks/free/>Free Tasks</a>
 </ul>
 </li>
@@ -86,17 +86,50 @@
 </div>
 <div class=col-md-8>
 <div class="px-lg-5 px-4">
-<h1 class="mb-4 font-weight-medium">Account & Billing</h1>
-<ul class="list-styled text-left mb-4">
-<li><a href=https://docs.githaxs.com/account-bill/subscribe/>Subscribe</a></li>
-<li><a href=https://docs.githaxs.com/account-bill/upgrade/>Upgrade</a></li>
-<li><a href=https://docs.githaxs.com/account-bill/cancel/>Cancel</a></li>
+<h1 class="mb-4 font-weight-medium">Free Tasks</h1>
+<div class=content><p>The following tasks are included for Free:</p>
+<ul>
+<li>Title Lint</li>
+<li>PR Too Big</li>
 </ul>
+</div>
 <nav class=pagination>
-<a class="nav nav-prev" href=https://docs.githaxs.com/basic-startup/tutorials/><i class="fas fa-chevron-left mr-2"></i>
-<span class="d-none d-md-block">Tutorials</span></a>
-<a class="nav nav-next" href=https://docs.githaxs.com/account-bill/subscribe/> <span class="d-none d-md-block">Subscribe</span><i class="fas fa-chevron-right ml-2"></i></a>
+<a class="nav nav-prev" href=https://docs.githaxs.com/tasks/><i class="fas fa-chevron-left mr-2"></i>
+<span class="d-none d-md-block">Tasks</span></a>
+<a class="nav nav-next" href=https://docs.githaxs.com/changelog/> <span class="d-none d-md-block">Changelog</span><i class="fas fa-chevron-right ml-2"></i></a>
 </nav>
+<div class="feedback row" id=feedback>
+<div class="col-md-8 col-lg-9">
+<h4>Did you find this doc useful?</h4>
+<p>Your feedback helps us improve our docs.</p>
+</div>
+<div class="col-md-4 col-lg-3 mt-2 mb-4 mb-md-0 text-md-right">
+<button class="feedback-btn collapsed positive" type=button data-toggle=collapse data-target=#positive aria-expanded=true aria-controls=positive>
+<i class="far fa-thumbs-up"></i>
+</button>
+<button class="feedback-btn collapsed negative" type=button data-toggle=collapse data-target=#negative aria-expanded=false aria-controls=negative>
+<i class="far fa-thumbs-down"></i>
+</button>
+</div>
+<div class=col-12>
+<div id=positive class=collapse data-parent=#feedback>
+<form name=feedback method=post action=https://formspree.io/f/mjvjqrrg>
+<input type=text name=feedback id=feedback value=Positive hidden>
+<input type=text name=URL id=URL hidden>
+<textarea name=comments id=comments class="form-control mb-4" placeholder="What did you like about this doc?"></textarea>
+<button type=submit class="btn btn-primary">Send Feedback</button>
+</form>
+</div>
+<div id=negative class=collapse data-parent=#feedback>
+<form name=feedback method=post>
+<input type=text name=feedback id=feedback value=Negative hidden>
+<input type=text name=URL id=URL hidden>
+<textarea name=comments id=comments class="form-control mb-4" placeholder="What can we improve in this doc?"></textarea>
+<button type=submit class="btn btn-primary">Send Feedback</button>
+</form>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
